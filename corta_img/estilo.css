@@ -1,0 +1,16 @@
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: url('https://cdn.espn.com.br/image/wide/622_3566ef3a-c0f1-3f51-867b-7d37d398491b.jpg') center;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 0.5px;
+    margin-top: 10%;
+}
